@@ -9,6 +9,14 @@ const words = [
   'Machine Learning Enthusiast',
 ];
 
+/**
+ * Renders the Hero section of a personal portfolio website.
+ * This component displays a profile image, name, dynamic role text,
+ * and social media links. It uses a typewriter effect to cycle through
+ * different roles.
+ *
+ * @returns {JSX.Element} A section element containing the hero content
+ */
 const Hero = () => {
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
