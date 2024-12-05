@@ -1,7 +1,7 @@
 export const images = {
   profile: 'https://i.postimg.cc/8z4PPjqj/BOS-4958-modified.png',
   resume:
-    'https://drive.google.com/file/d/1hIzFoC1EpzLs9_wtK8KT1Rqp4hAuD6ia/view?usp=sharing',
+    'https://i.postimg.cc/XqhxHGxj/Screenshot-20241205-101416-2.png',
   projects: {
     edusphere:
       'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80',
