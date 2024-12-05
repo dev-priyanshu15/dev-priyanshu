@@ -34,6 +34,12 @@ const ContactForm = () => {
     }));
   };
 
+  /**
+   * Handles the form submission for sending an email.
+   * @param {React.FormEvent} e - The form event object.
+   * @returns {Promise<void>} A promise that resolves when the submission process is complete.
+   * @throws {Error} If the email fails to send.
+   */
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formRef.current) return;
