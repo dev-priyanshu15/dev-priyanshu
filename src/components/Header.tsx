@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import { Menu } from 'lucide-react';
 
+/**
+ * Header component for the application.
+ * Renders a responsive header with navigation menu for both desktop and mobile views.
+ * Includes a mobile-friendly sidebar that can be toggled open and closed.
+ * @returns {JSX.Element} A header component with navigation menu and mobile sidebar
+ */
 const Header = () => {
   // State to control the visibility of the mobile menu and sidebar
   const [isMenuOpen, setIsMenuOpen] = useState(false);

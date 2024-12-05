@@ -8,6 +8,13 @@ interface ProjectModalProps {
   onClose: () => void;
 }
 
+/**
+ * React functional component that renders a modal displaying project details.
+ * @param {Object} project - The project object containing details to be displayed.
+ * @param {boolean} isOpen - Indicates whether the modal should be open or closed.
+ * @param {Function} onClose - Callback function to be called when the modal is closed.
+ * @returns {JSX.Element|null} Returns the modal JSX if open, otherwise returns null.
+ */
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose }) => {
   if (!isOpen) return null;
 

@@ -9,6 +9,11 @@ interface FormData {
   message: string;
 }
 
+/**
+ * Renders a contact form component with input fields for name, email, and message.
+ * Handles form submission using EmailJS to send emails.
+ * @returns {JSX.Element} A form element with input fields, submit button, and status messages.
+ */
 const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState<FormData>({
@@ -29,6 +34,12 @@ const ContactForm = () => {
     }));
   };
 
+  /**
+   * Handles the form submission for sending an email.
+   * @param {React.FormEvent} e - The form event object.
+   * @returns {Promise<void>} A promise that resolves when the submission process is complete.
+   * @throws {Error} If the email fails to send.
+   */
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formRef.current) return;
