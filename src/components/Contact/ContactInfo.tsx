@@ -1,6 +1,10 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
+/**
+ * Renders a contact information component with details such as email, phone, location, and available hours.
+ * @returns {JSX.Element} A div containing contact information displayed in a structured format.
+ */
 const ContactInfo = () => {
   const contactDetails = [
     {
