@@ -22,6 +22,20 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
+  /**
+   * Manages the typing effect for a word carousel.
+   * 
+   * This useEffect hook creates a typing animation that cycles through an array of words.
+   * It handles both typing and deleting characters to create a dynamic text effect.
+   * 
+   * @param {number} currentWordIndex - The index of the current word being displayed.
+   * @param {string} currentText - The current text being displayed.
+   * @param {boolean} isDeleting - Flag indicating whether the effect is currently deleting characters.
+   * @returns {function} Cleanup function to clear the typing interval when the component unmounts.
+   * 
+   * @sideEffect Sets up an interval to update the displayed text.
+   * @sideEffect Updates state variables: currentText, isDeleting, and currentWordIndex.
+   */
   useEffect(() => {
     const currentWord = words[currentWordIndex];
 
