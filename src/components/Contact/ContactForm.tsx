@@ -9,6 +9,11 @@ interface FormData {
   message: string;
 }
 
+/**
+ * Renders a contact form component with input fields for name, email, and message.
+ * Handles form submission using EmailJS to send emails.
+ * @returns {JSX.Element} A form element with input fields, submit button, and status messages.
+ */
 const ContactForm = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState<FormData>({
