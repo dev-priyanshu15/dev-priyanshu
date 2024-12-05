@@ -2,6 +2,10 @@ import React from 'react';
 import { Calendar, FileDown } from 'lucide-react';
 import { images } from '../assets/images';
 
+/**
+ * Renders the Experience section of a portfolio website
+ * @returns {JSX.Element} A section element containing work experience details and a resume display
+ */
 const Experience = () => {
   const experiences = [
     {
