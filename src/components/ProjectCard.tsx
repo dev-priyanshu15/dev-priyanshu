@@ -7,6 +7,17 @@ interface ProjectCardProps {
   project: ProjectType;
 }
 
+/**
+ * Renders a project card component with an image, title, description, and technology tags.
+ * Clicking the card opens a modal with more details about the project.
+ * @param {Object} props - The component props
+ * @param {Object} props.project - The project object containing details to be displayed
+ * @param {string} props.project.image - URL of the project image
+ * @param {string} props.project.title - Title of the project
+ * @param {string} props.project.description - Short description of the project
+ * @param {string[]} props.project.tech - Array of technology tags used in the project
+ * @returns {JSX.Element} A React component representing the project card
+ */
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
