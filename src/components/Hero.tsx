@@ -3,9 +3,10 @@ import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { images } from '../assets/images';
 
 const words = [
+  'Software Developer Engineer'
   'Full Stack Developer',
   'Open Source Contributor',
-  'DevOps Enthusiast',
+  'DevOps Engineer',
   'Machine Learning Enthusiast',
 ];
 
