@@ -33,12 +33,18 @@ const About = () => {
                     Node.js, and Express.js. My expertise extends to managing
                     databases such as MongoDB, PostgreSQL, and Redis, while
                     leveraging tools like Git and Cloudinary for efficient
-                    development workflows. Over the years, I have worked on
-                    innovative projects like <strong>EduSphere</strong>, a
-                    placement preparation app designed to empower students, and
-                    a <strong>Social Media Blockchain App</strong> that
-                    integrates blockchain technology for secure and transparent
-                    interactions.
+                    development workflows.
+                  </p>
+                  <p className="text-gray-300 dark:text-gray-200 leading-relaxed mb-6">
+                    My professional journey includes an internship at{' '}
+                    <strong>Bluestock Fintech</strong> as a Software Developer
+                    Engineer Intern, where I had the privilege of leading a
+                    project as the team leader. I spearheaded the development
+                    process, contributing to both frontend and backend aspects,
+                    and ensured smooth collaboration among team members. Under
+                    my leadership, we successfully built a robust and scalable
+                    solution, integrating responsive user interfaces with
+                    efficient backend services.
                   </p>
                   <p className="text-gray-300 dark:text-gray-200 leading-relaxed">
                     For me, coding is more than a profession—it’s a way to
